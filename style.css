@@ -42,10 +42,10 @@ height: 100px;
 
 }
 
-.dp{width: 40px;
+.dp{
+  width: 40px;
   height: 40px;
-
-   position: relative;
+  position: relative;
   left: 50px;
   border-radius: 25px;
   margin: 10px;
@@ -70,9 +70,11 @@ height: 100px;
 }
 
 hr{
-  border-style: ridge;
-  border-collapse: collapse;
-  border-color: indigo;
+  border-style: dotted none none;
+  border-color: gray;
+  border-width: 4px;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .introduction-text{
@@ -84,13 +86,15 @@ hr{
 .skills{
   font-size: 30px;
   font-family: cursive;
+  color: rgb(255, 74, 74);
 }
 
 .coding{
-  width: 25%;
- height: 25%;
+  width: 30%;
+ height: 30%;
   float: left;
   margin-right: 50px;
+  margin-top:20px ;
 }
 
 
@@ -100,6 +104,50 @@ hr{
   text-align: left;
   line-height: 2;
   font-size: 20px;
+  display: table;
+  font-family: 'KoHo', sans-serif;
+  font-weight: bold;
 
 }
 
+.camera{
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 100px;
+
+}
+
+h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.contact-details{
+  margin-top: 0px;
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+.contact-images{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  padding-bottom: 40px;
+}
+
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+ color:	#3AA8C1;
+}
+
+
+.middle-text{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: #43B3AE;
+}
